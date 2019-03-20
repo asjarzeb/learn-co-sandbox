@@ -1,0 +1,23 @@
+#grey-paragraph
+
+p {
+  color: yellow;
+  background-color: purple;
+  font-family: 'Felipa', 'Arial', 'Times New Roman';
+}
+
+h2 {
+  color: blanchedalmond;
+}
+
+.red-paragraph {
+  color: orange;
+}
+
+/* 1. Inline styles trump everything, except for !important */
+/* 2. For <style> tags and <link> whatever comes last will be applied */
+/*3.  CSS is selective -- if one thing is not specified (background-color) it's going to apply background-color from the other places that have it */
+
+
+/* class trumps tag selectors- tags are at bottom of hierarchy */
+/* ID wins all-- */
